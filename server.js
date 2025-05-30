@@ -59,10 +59,6 @@ io.on("connection", socket => {
 })
 
 
-app.get('/', (req, res) => {
-    res.send("Sup")
-})
-
 server.listen(3000, () => {
     console.log("listening on port 3000...")
 })
